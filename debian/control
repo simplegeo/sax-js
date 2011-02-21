@@ -1,0 +1,13 @@
+Source: nodejs-sax
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: nodejs-sax
+Depends: nodejs (>= 0.2.0), ${misc:Depends}
+Architecture: all
+Description: sax-js
+ https://github.com/isaacs/sax-js
